@@ -14,7 +14,7 @@ var app = express()
  *
  */
 app.use(bodyParser.json())
-app.use(express.json())
+// app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // 初始化数据库模块
